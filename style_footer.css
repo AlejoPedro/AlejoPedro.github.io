@@ -1,0 +1,147 @@
+.navbar{
+    box-shadow: 0 10px 10px -3px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, black, #263238);
+    font-size: 20px;
+}
+
+p{
+    color: white;
+    font-size: 20px;
+}
+
+html, body {
+    background: linear-gradient(to bottom, #0D47A1,#2196F3, #FF6F00,#1B5E20,#5D4037,#B71C1C,#4A148C);
+    transition: background 1s ease-in-out;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+#bio{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, #0D47A1, #29B6F6);
+    color: white;
+    box-shadow: border-box;
+    margin: 50px;
+    padding: 50px;
+    border-radius: 30px;
+}
+
+#est{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, #FF6F00, #FFCA28);
+    color: white;
+    box-shadow: border-box;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+#ubi, #ubi1, #ubi2{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+}
+
+#exp{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, #1B5E20, #66BB6A);
+    color: white;
+    box-shadow: border-box;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#hob{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, #5D4037, #8D6E63);
+    color: white;
+    box-shadow: border-box;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#formu{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, #B71C1C, #EF5350);
+    color: white;
+    box-shadow: border-box;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+#comen{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to bottom, #4A148C, #AB47BC);
+    color: white;
+    box-shadow: border-box;
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+#biografia, #estudios, #experiencia, #hobbies, #formulario, #comentarios {
+    visibility: hidden;
+}
+
+#form1, #form2, #form3, #form4, #form5, #form6, #form7, #form8, #form9{
+    font-weight: bold;
+}
+
+#texto{
+    background-image: linear-gradient(to bottom, #FF6F00, #FFCA28);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+}
+#texto1{
+    background-image: linear-gradient(to bottom, #FF6F00, #FFCA28);
+    margin: 50px;
+    padding: 20px;
+    border-radius: 30px;
+}
+#texto2{
+    background-image: linear-gradient(to bottom, #FF6F00, #FFCA28);
+    margin: 50px;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#btn-toogle{
+    margin: 15px;
+}
+#btn-toogle1{
+    margin: 15px;
+}
+#btn-toogle2{
+    margin: 15px;
+}
+
+footer{
+    background-image: linear-gradient(to bottom, black, #263238);
+    min-height: 100px;
+}
+footer p{
+    color: white;
+    text-align: center;
+}
+#iconos i{
+    font-size: 26px;
+    padding: 0 8px;
+    color: white;
+}
+
+#aprendizajee{
+    box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 5);
+}

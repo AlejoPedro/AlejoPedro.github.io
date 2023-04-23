@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro's Web</title>
+    <audio id="audio" src="music/musica.mp3"></audio>       
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="style_footer.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="shortcut icon" href="icon/icon.ico" type="image/x-icon">
+    <link rel="icon" href="icon/icon.ico" type="image/x-icon">
+</head>
+<body>
+
+    <!-- Menu Principal -->
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top bg-dark">                 
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#"><strong>Mi Web</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#"><strong>Inicio</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#biografia"><strong>Biografía</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#estudios"><strong>Estudios</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#experiencia"><strong>Experiencia</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#hobbies"><strong>Hobbies</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#formulario"><strong>Formulario</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#comentarios"><strong>Comentarios</strong></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" id="boton-musica" href="#"><strong>Música</strong></a>
+                </li>
+            </ul>
+            <form class="d-flex">
+                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-light" type="submit">Search</button>
+            </form>
+            </div>
+        </div>
+    </nav>
+
+    <section class="pt-5 text-center">
+
+        <!-- Carrusel -->
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/aprendizaje.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/practica.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/decision.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/aplicacion.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="images/futuro.jpg" class="d-block w-100" alt="...">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+        <br>
+        <main>
+
+            <p id="biografia">f</p>
+            <!-- Biografía -->
+            <div class="mb-3" id="bio">
+                <h1>MI BIOGRAFÍA</h1>
+                <p><strong>Me llamo Pedro. Tengo 17 años de edad, así que nací en el año 2005. Mis padres son Milagros y Pedro y si, me llamo igual que mi papá y también igual que mi abuelo, no hay mucha originalidad en mi familia. A lo largo de mi corta vida tuve la posibilidad de estar en dos países distintos, Argentina y Chile y realmente fueron experiencias increíbles. Actualmente estoy estudiando la carrera de Ingeniería de Software en SENATI para lograr especializarme en dicha profesión y con el anhelo de cumplir mis objetivos próximos.</strong> </p>
+            </div>
+
+            <p id="estudios">f</p>
+            <!-- Estudios -->
+            <div>
+                <div id="est" class="mb-4">
+                    <h1>MIS ESTUDIOS</h1>
+                <p><strong>Si te interesa, presionando los botones de <u>Primaria</u>, <u>Secundaria</u> o <u>Intituto</u>  podras ver la infromación de los respectivos grados de estudio.</strong></p>
+                <button id="btn-toogle" class="btn btn-dark"><strong>Primaria</strong></button>
+                <button id="btn-toogle1" class="btn btn-dark"><strong>Secundaria</strong></button>
+                <button id="btn-toogle2" class="btn btn-dark"><strong>Instituto</strong></button>               
+                </div>
+                <div class="mb-3 mt-4 text-white py-3 text-center border border-3" id="texto" style="display: none;">
+                    <p><strong>PRIMARIA</strong><br>
+                    <strong>Comence mi ciclo estudiantil primario en el año 2011 en la Escuela N°25 "Ricardo Guiraldes" hasta tercer grado. Luego, en el año 2014, continúe y culminé con este grado de estudios en el colegio 0024 "PEDRO ENRIQUE GONZALES SOTO" acá en Perú.</strong></p>
+                </div>
+                <iframe id="ubi" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d659.0550926719499!2d-76.91259672175777!3d-12.02619259972676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c3fa2710c1a1%3A0x87caa16ea4e3b7eb!2sPedro%20Enrique%20Gonzales%20Soto!5e1!3m2!1ses-419!2spe!4v1682140917463!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="mb-3 mt-4 text-white py-3 text-center border border-3" id="texto1" style="display: none;">
+                    <p><strong>SECUNDARIA</strong><br>
+                    <strong>En el año 2017 se da el inicio de mi ciclo secundario, esta vez en el colegio técnico para varones "INEI 46 VíCTOR RAÚL HAYA DE LA TORRE"</strong></p>
+                </div>
+                <iframe id="ubi1" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d311.0328903682689!2d-76.91846679224149!3d-12.025927822687558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c51af1de787f%3A0x62374d79709d5f70!2sCORPORACI%C3%93N%20DE%20SERVICIOS%20GENERALES%20ROJAS%20SAC%20-%20COSEGER%20SAC!5e1!3m2!1ses-419!2spe!4v1682141881728!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div class="mb-3 mt-4 text-white py-3 text-center border border-3" id="texto2" style="display: none;">
+                    <p><strong>INSTITUTO</strong><br>
+                    <strong>Por utimo, en el año 2022 comencé mis estudios superiores en el popular Instituo del Perú "Servicio Nacional de Adiestramiento en Trabajo Industrial (SENATI)"</strong></p>
+                </div>
+                <iframe id="ubi2" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d931.9123875327144!2d-77.03922699432555!3d-12.064298897513702!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105c8ea1b73e209%3A0xd0ec1713ec6dc723!2sSENATI%20Centro%20de%20Lima!5e1!3m2!1ses-419!2spe!4v1682141420633!5m2!1ses-419!2spe" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </main>
+
+        <!-- Experiencia -->
+        <p id="experiencia">f</p>
+        <div>
+            <h1 id="exp">MI EXPERIENCIA</h1>
+            <p><strong>En esta sección, al pasar el cursor por <u>Más detalles</u>, podras ver un resumen de las actividades en las que mejor me desenvuelvo.</strong></p>
+        </div>
+        <div class="container">          
+            <div class="row">   
+                <div class="col-lg-3 col-md-6 text-light">
+                    <img id="carpinteria" src="exp/carpinteria.png" alt="" width="140px" height="140px" class="rounded-circle">
+                    <h2>Carpintería</h2>
+                    <p id="verdetalles"><strong>Más detalles</strong></p>
+                    <p id="masdetalles">La escuela Secundaria en la que estudié se cracterizaba por enseñar especialidades técnicas. En mi caso, me toco el curso de Carpintería. Estudie durante 2 años dicha especialidad en donde desarrollé muchos projectos y a su vez gané mucha experiencia</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-light">
+                    <img id="compu" src="exp/limpiezacompu.png" alt="" width="140px" height="140px" class="rounded-circle">
+                    <h2>Limpieza de Pcs</h2>
+                    <p id="verdetalles1"><strong>Más detalles</strong></p>
+                    <p id="masdetalles1">A pesar de no tener un conocimiento muy amplio, tengo los requerimientos básicos para realizar una correcta limpieza de una PC de escritorio.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-light">
+                    <img id="soldadura" src="exp/soldadura.png" alt="" width="140px" height="140px" class="rounded-circle">
+                    <h2>Soldadura</h2>
+                    <p id="verdetalles2"><strong>Más detalles</strong></p>
+                    <p id="masdetalles2">Soldadura fue otro de los cursos que aprendí en la Secundaria. Cursé esta materia durante 1 año y medio y, al igual que en Carpintería, realice muchos projectos mediante la unificación de materiales metálicos.</p>
+                </div>
+                <div class="col-lg-3 col-md-6 text-light">
+                    <img id="electricidad" src="exp/electricidad.png" alt="" width="140px" height="140px" class="rounded-circle">
+                    <h2>Electricidad</h2>
+                    <p id="verdetalles3"><strong>Más detalles</strong></p>
+                    <p id="masdetalles3">Otro curso que aprendi fue electricidad. Aprendí las cosas más básicas como una conexión para tomacorrientes y focos. Además, mi papá me enseño mucho acerca de esta especialidad ya que su trabajo en parte esta dedicado a esto.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Tarjetas "Hobbies" -->
+        <p id="hobbies">f</p>
+        <div >
+            <h1 id="hob">MIS HOBBIES</h1>
+            <p><strong>En esta sección puedes ver los hobbies que me gusta realizar en mis tiempos libres.</strong></p>               
+        </div>
+        <div class="row">           
+            <div id="series" class="card col-x1-2 col-lg-3 col-md-4 col-sm-6 m-3" style="width: 18rem;">
+                <img src="hobb/series.jpg" class="card-img-top mt-3" alt="Mirar series">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Mirar series</strong></h5>
+                </div>
+            </div>
+            <div id="futbol" class="card col-x1-2 col-lg-3 col-md-4 col-sm-6" style="width: 18rem;">
+                <img src="hobb/futbol.jpg" class="card-img-top mt-3" alt="Ver y jugar fútbol">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Ver y jugar fútbol</strong></h5>
+                </div>
+            </div>
+            <div id="videojuegos" class="card col-x1-2 col-lg-3 col-md-4 col-sm-6 m-3" style="width: 18rem;">
+                <img src="hobb/videojuegos.jpg" class="card-img-top mt-3" alt="Jugar videojuegos">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Jugar videojuegos</strong></h5>
+                </div>
+            </div>
+            <div id="musicaa" class="card col-x1-2 col-lg-3 col-md-4 col-sm-6" style="width: 18rem;">
+                <img src="hobb/musica.jpg" class="card-img-top mt-3" alt="Escuchar música">
+                <div class="card-body">
+                    <h5 class="card-title"><strong>Escuchar música</strong></h5>
+                </div>
+            </div>
+        </div>
+        
+        <p id="formulario">f</p>
+        <!-- Formulario -->
+        <div>
+            <h1 id="formu">FORMULARIO</h1>
+            <p><strong>En esta sección puedes responder un formulario con tus datos personales para proximos avisos. Tu colaboración me ayuda muchisimo</strong></p>               
+        </div>           
+        <div class="container mt-4">
+            <form id="registro" onsubmit="return validarFormulario()">
+                <div class="row mb-3 text-start text-light">
+                    <label for="nombre" class="col-sm-2 col-form-label" id="form1">Nombre:</label>                   
+                    <div class="col-sm-10">
+                    <input type="text" id="nombre" class="form-control" placeholder="Ingrese sus nombres" pattern="^[A-Za-z]+$" required>  
+                    </div>				
+                </div>
+                <div class="row mb-3 text-start text-light">
+                    <label for="apellido" class="col-sm-2 col-form-label" id="form2">Apellido:</label>
+                    <div class="col-sm-10">
+                        <input type="text" id="apellido" class="form-control" placeholder="Ingrese sus apellidos" pattern="^[A-Za-z]+$" required>
+                    </div>				
+                </div>
+                <div class="row mb-3 text-start text-light">
+                    <label for="correo" class="col-sm-2 col-form-label" id="form3">Correo electrónico:</label>
+                    <div class="col-sm-10">
+                        <input type="email" id="correo" class="form-control" placeholder="username@correo.com" required>
+                    </div>				
+                </div>
+                <div class="row mb-3 text-start text-light">
+                    <label for="edad" class="col-sm-2 col-form-label" id="form4">Edad:</label>
+                    <div class="col-sm-10">
+                        <input type="number" id="edad" class="form-control" placeholder="Ingrese su edad" min="0" required>
+                    </div>				
+                </div>
+                <fieldset class="row mb-3 text-start text-light">
+                    <legend class="col-form-label col-sm-2 pt-0" id="form5">Sexo:</legend>
+                    <div class="col-sm-10 text-start">
+                    <div class="form-check">
+                        <input type="radio" name="sexo" id="masculino" value="masculino" class="form-check-input" required>
+                        <label for="masculino" class="form-check-label" id="form6">Masculino</label>
+                    </div>
+                    <div class="form-check">
+                        <input type="radio" name="sexo" id="femenino" value="femenino" class="form-check-input" required>
+                        <label for="femenino" class="form-check-label" id="form7">Femenino</label>
+                    </div>
+                    </div>
+                </fieldset>
+                <div class="row mb-3 text-light">
+                    <div class="col-sm-10 offset-sm-2">
+                        <div class="form-group form-check text-start">
+                            <input type="checkbox" id="terminos" class="form-check-input" required>
+                            <div class="col-sm-10">
+                            <label for="terminos" class="form-check-label" id="form8">Acepto los términos y condiciones</label>
+                            </div>				
+                        </div>
+                    </div>                 
+                </div>
+                <div class="row mb-3">
+                    <div class="col-sm-10 offset-sm-2 text-start">
+                    <button type="submit" class="btn btn-dark" id="form9">Enviar</button>
+                    </div>
+                </div>  
+            </form>
+            <div id="mensaje" class="mt-3"></div>     
+        </div>
+
+        <p id="comentarios">f</p>
+        <!-- Comentarios -->
+        <div>
+            <h1 class="mt-5" id="comen">COMENTARIOS</h1>              
+        </div>
+        <div class="container">
+            <div class="row">
+              <div class="col-md-6 text-light">
+                <h2>Contacto</h2>
+                <p><strong>Si tiene alguna pregunta o comentario, por favor póngase en contacto mediante el siguiente formulario o enviando un correo electrónico al equipo de soporte.</strong></p>
+                <ul class="list-unstyled">
+                  <li><i class="bi bi-envelope"></i><strong> murgueytiopedro@gmail.com</strong></li>
+                  <li><i class="bi bi-telephone"></i><strong> 973490888</strong></li>
+                  <li><i class="bi bi-geo-alt"></i><strong> AV. Brandsen 805</strong></li>
+                </ul>
+              </div>
+              <div class="col-md-6 text-light">
+                <form id="formulario-contacto" onsubmit="enviarMensaje(event)" method="post" action="#">
+                  <div class="mb-3">
+                    <label for="nombre" class="form-label"><strong>Nombre completo</strong></label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" pattern="[A-Za-zñÑáéíóúÁÉÍÓÚ\s]+" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="correo" class="form-label"><strong>Correo electrónico</strong></label>
+                    <input type="email" class="form-control" id="correo" name="correo" required>
+                  </div>
+                  <div class="mb-3">
+                    <label for="mensaje" class="form-label"><strong>Mensaje</strong></label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="5" required></textarea>
+                  </div>
+                  <button type="submit" class="btn btn-dark"><strong>Enviar mensaje</strong></button>
+                </form>
+              </div>
+            </div>
+        </div>
+    </section>
+    <!-- Footer -->
+    <footer class="w-100 d-flex align-items-center justify-content-center flex-wrap">
+        <p class="fs-5 px-3 pt-3">
+            <strong>Copyright &copy; 2023 Pedro Alejandro Murgueytio Inc. Todos los derechos son reservados</strong> 
+        </p>
+        <div id="iconos">
+            <a href="https://facebook.com"><i class="bi bi-facebook"></i></a>
+            <a href="https://twitter.com"><i class="bi bi-twitter"></i></a>
+            <a href="https://instagram.com"><i class="bi bi-instagram"></i></a>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="main.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>   
+</body>
+</html>
